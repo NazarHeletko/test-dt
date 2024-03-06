@@ -15,7 +15,7 @@ function Search() {
   const [users, setUsers] = useState([])
 
   useEffect(() => {
-    fetch('https://test-dt-server.vercel.app//users')
+    fetch('https://test-dt-server.vercel.app/users')
       .then((res) => res.json())
       .then((data) => {
         setUsers(data)
