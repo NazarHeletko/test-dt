@@ -11,7 +11,7 @@ const db = mongoose.connection
 db.on('error', (error) => console.error(error))
 db.once('open', () => console.log('Connected to Database'))
 
-app.use(cors({ origin: ["https://test-dt-frontend.vercel.app/"], methods: ["POST", "GET"], credentials: true}));
+app.use(cors({ origin: ["https://test-dt-frontend.vercel.app"], methods: ["POST", "GET"], credentials: true}));
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
