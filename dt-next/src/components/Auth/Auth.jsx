@@ -61,7 +61,7 @@ function Auth() {
       return;
     }
     try {
-      const res = await fetch("http://localhost:3001/users", {
+      const res = await fetch("https://test-dt-server.vercel.app/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
