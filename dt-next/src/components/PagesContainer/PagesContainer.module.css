@@ -1,0 +1,15 @@
+.container {
+    margin: 64px 32px 106px 32px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 17px -1px #00000052;
+    padding: 24px 24px;
+    border: 1px solid #0000002b; 
+    position: relative; 
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container {
+      margin: 64px 16px 106px 16px;
+    }
+  }
+  

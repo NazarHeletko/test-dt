@@ -1,0 +1,23 @@
+.load-more {
+    width: 100%;
+    background-color: #e1e1e1e0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+.load-more:hover {
+    background-color: #d2ffd4ad;
+}
+
+.load-more p {
+    margin: 0 10px 0 0;
+    padding: 10px 0;
+}
+
+.load-more img {
+    height: 16px;
+}

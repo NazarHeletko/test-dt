@@ -1,0 +1,41 @@
+.search {
+    width: inherit;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.items-greed {
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 24px;
+    justify-items: center;
+}
+@media only screen and (max-width: 2020px) {
+    .items-greed {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .items-greed {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .items-greed {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 992px) {
+    .items-greed {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 700px) {
+    .items-greed {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

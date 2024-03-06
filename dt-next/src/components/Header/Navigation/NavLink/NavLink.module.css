@@ -1,0 +1,21 @@
+.link-item {
+    position: relative;
+}
+.link-item .activelink {
+    background-color: #4360ff6b;
+}
+
+.notification {
+    height: 16px;
+    width: 16px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: -8px;
+    color: white;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

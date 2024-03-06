@@ -1,0 +1,36 @@
+
+
+.header {
+    width: 100%;
+    height: 44px;
+    background: rgb(142,69,0);
+    background: linear-gradient(90deg, rgba(142,69,0,1) 0%, rgba(47,0,135,1) 89%, rgba(47,0,135,1) 100%);
+    backdrop-filter: blur(14px);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    font-size: 3em;
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 31px 0px rgba(46,74,117,0.4);
+  }
+  .logo {
+    height: inherit;
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 52%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header {
+      height: 46px;
+      padding: 0 1rem;
+    }
+    .logo img {
+      height: 19.2px;
+    }
+  }

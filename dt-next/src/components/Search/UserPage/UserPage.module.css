@@ -1,0 +1,215 @@
+.user-page {
+    width: 100%;
+    position: relative;
+}
+.short-info {
+    min-height: 652px;
+    display: flex;
+}
+
+.short-info-img {
+    overflow: hidden;
+    min-height: 652px;
+    width: 40%;
+    border-radius: 18px;
+    border: 1px solid #d8680a99;
+    box-sizing: border-box;
+}
+.short-info-img img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.description {
+    width: 60%;
+    height: inherit;
+    margin-left: 20px;
+    border-radius: 18px;
+    position: relative;
+    padding: 14px 0px 14px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.description h2 {
+    color: #3b0039;
+    margin: 0;
+}
+.description p {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #0000008c;
+    font-weight: 300;
+}
+/* button close */
+
+.close-single-page-btn {
+    position: absolute;
+    right: 0px;
+    top: 16px;
+    width: 26px;
+    height: 26px;
+    opacity: 0.5;
+  }
+  .close-single-page-btn:hover {
+    opacity: 1;
+  }
+  .close-single-page-btn:before, .close-single-page-btn:after {
+    position: absolute;
+    left: 12px;
+    content: ' ';
+    height: 26px;
+    width: 2px;
+    background-color: #e91e63;
+  }
+  .close-single-page-btn:before {
+    transform: rotate(45deg);
+  }
+  .close-single-page-btn:after {
+    transform: rotate(-45deg);
+  }
+
+  .name {
+    width: 100%;
+  }
+  .name h2{
+    display: inline-block;
+    margin-right: 14px;
+  }
+  .name img {
+    height: 13px;
+  }
+  .name span {
+    font-weight: 300;
+    color: #0000008c;
+    font-size: 14px;
+  }
+  .info {
+    height:100%;
+    width: 100%;
+    border-radius: 18px;
+    display: flex;
+  }
+
+  .user-info {
+    height: 100%;
+    width: 100%;
+  }
+  .user-options {
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    background-color: #f3f3f3fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .user-info ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: 0;
+  }
+  .user-info ul li {
+    display: flex;
+  }
+  .user-info ul li span {
+    margin-left: 6px;
+    font-weight: 300;
+  }
+  .user-info ul li img {
+    height: 20px;
+    margin-right: 10px;
+  }
+  .options-item {
+    background-color: #f3c699b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    color: #000000bd;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+  }
+  .options-item img {
+    margin-right: 10px;
+  }
+  .options-item:last-child {
+    bottom: 0;
+    position: absolute;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #ffe6e0;
+    color: red;
+  }
+  .options-item img{
+    height: 24px;
+  }
+  .options-item span {
+    text-transform: lovercase;
+  }
+  .options-item:hover {
+    border: 1px solid #ff8e00;
+  }
+  .block {
+    bottom: 0;
+  }
+  .block img {
+    height: 10px;
+  }
+  .about-user {
+    background-color: #f3f3f3fc;
+    padding: 16px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    font-weight: 300;
+    line-height: 1.4em;
+    text-align: justify;
+  }
+  .about-me-title {
+    color: #3B002C;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  .stats {
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+  }
+  .stats div {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 12px;
+    margin-right: 18px;
+  }
+  .stats img {
+    height: 18px;
+    margin-right: 4px;
+  }
+  .gift-section {
+    width: 100%;
+    padding: 0 6px 6px 6px;
+    background-color: #99999914;
+    margin-top: 16px;
+    border-radius: 8px;
+  }
+  .gift-section p {
+    text-align: center;
+  }
